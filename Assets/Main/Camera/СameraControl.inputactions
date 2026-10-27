@@ -1,0 +1,254 @@
+{
+    "version": 1,
+    "name": "СameraControl",
+    "maps": [
+        {
+            "name": "CameraMove",
+            "id": "c2af141b-0321-4f20-a7e2-a67e1b4d19e0",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "ba9e9ef2-fda8-47c8-9afa-2e11fb5193de",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "e44c8e4f-6be6-4ab7-9022-fc1bd7f7e91f",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "4d20fa9f-a16e-4f12-b15a-3991c87c6dbc",
+                    "path": "<Keyboard>/#(W)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "623494ef-e30c-4e29-9c8f-cbfc1321ad1c",
+                    "path": "<Keyboard>/#(S)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "3b73d827-f72b-4786-af38-0bd0c1ad389d",
+                    "path": "<Keyboard>/#(A)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "b906ca33-e949-4d69-af81-67bfb5fb86ec",
+                    "path": "<Keyboard>/#(D)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Select",
+            "id": "1ecbac8b-63fe-4f65-ac7a-a5a170de476b",
+            "actions": [
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "3a0c0148-2b44-416a-91c1-ef488d260704",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fbd081bc-b020-43c3-8a9f-d2bbe3433457",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Comand",
+            "id": "5fc5259a-26a8-418b-9d18-960439eb278a",
+            "actions": [
+                {
+                    "name": "Comand",
+                    "type": "Button",
+                    "id": "24f1404b-55cf-4e81-865c-480016114099",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6918053e-8161-4943-8e0a-42088e012a4e",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Comand",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "PointerPosition",
+            "id": "ad6c5dfa-edc1-4210-9056-f5810e3554e6",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "45d7c6a0-bc70-4678-a8fa-8f6deafffe0e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "962d59a0-47e6-40ed-a046-f24fde7e5ef6",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RotateCamera",
+            "id": "f5c2d3f5-537f-4e11-bbf1-8b44d9f36d24",
+            "actions": [
+                {
+                    "name": "RotateCamera",
+                    "type": "Button",
+                    "id": "eb5b2f3d-b4e4-4877-b80e-67f6b198073c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bafde47a-e617-4ea7-8a2e-b872938d6051",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "CameraDelta",
+            "id": "db12ad91-4449-452a-8b4e-918e688ae77b",
+            "actions": [
+                {
+                    "name": "LookDelta",
+                    "type": "PassThrough",
+                    "id": "47913b23-b589-4154-acf5-a7e84ee0a42f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f9d8223f-5e2d-4047-8a72-48c6f2649b43",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LookDelta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "CameraZoom",
+            "id": "cacf97e1-66bb-4107-8199-4f8cd1c6d611",
+            "actions": [
+                {
+                    "name": "Zoom",
+                    "type": "PassThrough",
+                    "id": "279154a0-9430-4e71-90ab-b77200bd7af2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ef25f7c6-788b-46dd-80ad-10319b4e370b",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
